@@ -18,17 +18,21 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma (string) {
-if (string.toupperCase === string) {
-return "Yes indeed";
-}
-else if (string.toLowerCase === string) {
-return "I can't hear you";
-}
-else {
-  return "I love you"
+if (string === "I love you, Grandma.") {
+  return "I love you, too." 
 }
 
+else if(string.toUpperCase() === string) {
+return "Yes indeed" 
+}
+
+else if (string.toLowerCase() === string) {
+return "I can't hear you"
+}
+
+else {
+  return "I'm a variable string"
+}
  }
 
 
-}
