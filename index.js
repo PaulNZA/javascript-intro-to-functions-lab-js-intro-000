@@ -19,11 +19,11 @@ function logWhisper(string) {
 
 function sayHiToGrandma (string) {
 if (string === "I love you, Grandma.") {
-  return "I love you, too." 
+  return "I love you, too."
 }
 
 else if(string.toUpperCase() === string) {
-return "Yes indeed" 
+return "Yes indeed"
 }
 
 else if (string.toLowerCase() === string) {
@@ -34,5 +34,3 @@ else {
   return "I'm a variable string"
 }
  }
-
-
